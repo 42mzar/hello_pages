@@ -1,0 +1,18 @@
+---
+title: "My second page"
+---
+
+```{r}
+if (!requireNamespace("pacman", quietly = TRUE)) {
+  install.packages("pacman")
+}
+pacman::p_load(reactable)
+```
+
+```{r}
+reactable(iris)
+```
+
+```{r}
+plot(iris)
+```
